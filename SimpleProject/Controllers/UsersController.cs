@@ -42,7 +42,7 @@ public class UsersController : Controller
             await _dbContext.AddAsync(user);
             await _dbContext.SaveChangesAsync();
 
-            return Ok();
+            return Ok(user);
         }
         catch (Exception ex)
         {
