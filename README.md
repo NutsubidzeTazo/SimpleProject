@@ -21,7 +21,7 @@ few steps to keep in mind to run application:
 
 3.After authentication you have to create Event (ex : football match event) using api/v1/events/event endpoint which returns event entity, remember event Id for upcoming method.(dont forget to write token in Authorize panel in swagger, you dont have to write Bearer prefix)
 
-4.After creating event if you want to place a bet use api/v1/bets/place endpoint. you have to give this method your userId and EventId from previous response from an endpoint. (request model has other properties too such as money "Amount" and etc.)
+4.After creating event if you want to place a bet use api/v1/bets/place endpoint. you have to give this method your userId and EventId from previous responses from endpoints (event endpoint and user register endpoint). (request model has other properties too, such as money "Amount" and etc.)
 
 
 I did not explain Request Models because it is shown in swagger.
