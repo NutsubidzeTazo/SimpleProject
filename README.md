@@ -9,7 +9,7 @@ Project Version : .NET 7.0
 
 Project consists simple endpoints where logic is written inside controller's actions. no patterns used, for example repository pattern. 
 
-In near future I am planning to add UnitTests, Exception handlers using middleware, After this I am planning to write clean code and abstract away some "things", reconstruct architecture using Onion Architecture (Clean Architecture) for studying reasons. I have some basic experience never but created Onion architecture from scratch.
+In near future I am planning to add UnitTests, Exception handlers using middleware, After this I am planning to write clean code and abstract away some "things", reconstruct architecture using Onion Architecture (Clean Architecture) for studying reasons. I have some basic experience but never created Onion architecture from scratch.
 
 few steps to keep in mind to run application:
 
